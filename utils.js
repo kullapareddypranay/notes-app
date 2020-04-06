@@ -1,7 +1,7 @@
 const fs=require('fs')
 const chalk=require('chalk')
 const getNotes=function(){
-    return "notes..."
+    return "notes... are"
 }
 const addNotes=function(title,body){
   const notes=loadnotes()
